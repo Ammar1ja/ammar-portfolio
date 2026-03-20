@@ -6,7 +6,7 @@ import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/ammar-portfolio">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
